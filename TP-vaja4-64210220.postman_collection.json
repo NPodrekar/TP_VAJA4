@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "f1c6624f-9a43-499e-809a-ff12af879255",
+		"name": "TP-vaja4-64210220",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30765832"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://vaje.ltfe.org/",
+					"protocol": "http",
+					"host": [
+						"vaje",
+						"ltfe",
+						"org"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://vaje.ltfe.org/splet/slika1.jpg",
+					"protocol": "http",
+					"host": [
+						"vaje",
+						"ltfe",
+						"org"
+					],
+					"path": [
+						"splet",
+						"slika1.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get?ime=Matevz",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "ime",
+							"value": "Matevz"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"priimek\":\"Matevz\"\r\n}"
+				},
+				"url": {
+					"raw": "https://postman-echo.com/post",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
